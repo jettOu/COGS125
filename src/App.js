@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Portfolio
+          Resume
         </a>
       </header>
     </div>
