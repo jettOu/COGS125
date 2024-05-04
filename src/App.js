@@ -1,14 +1,14 @@
 import './App.css';
 import React from 'react';
-import logo from './shark.svg'
-
+import shark from './shark.svg'
+import seaweed from './seaweed.gif'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p style={{ color: 'black' }}>
+        <img src={shark} className="App-logo" alt="logo" />
+        <p className="words">
           Jett's portfolio homepage
         </p>
         <a
@@ -20,7 +20,7 @@ function App() {
           Resume
         </a>
       </header>
-    </div>
+      </div>
   );
 }
 
