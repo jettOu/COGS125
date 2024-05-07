@@ -7,6 +7,20 @@
   pointer-events: none;
 }
 
+.Seaweed{
+  height: 100px;
+  width: 100px;
+}
+.p1{
+  object-position: left bottom;
+}
+.p2{
+  object-position: center bottom;
+}
+.p3{
+  object-position: right bottom;
+}
+
 @keyframes waterFade {  
   0% { background-color: rgb(123, 158, 171); }
   50% { background-color: rgb(20, 62, 101); }
@@ -35,7 +49,8 @@ a:link {
   background-color: rgb(137, 152, 176)
 }
 
-.words {
+p:hover {
   animation: wordFade 5s linear infinite;
+  cursor: pointer;
 }
 
